@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chill n' Sound - Relax with the sounds of Nautre</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="Relax with sounds of nature! Play and Mix Ambient sounds to boost concentration and productivity. Create your perfect enviroment.">
+   
+    <meta name="keywords" content="Stefan, Petrović, Petrovic, sounds, nature sounds, chill, play, mix, boost, productivity, improve, concentration, ambient, enviroment, soundbord, zen, calming, calm">
+
+    <meta name="author" content="Stefan Petrović">
+
+    <!-- Favicon -->
+	<link rel="shortcut icon" href="images/favicon.png">
+
+	<link rel="stylesheet" href="css/styles.min.css">
+
+</head>
+<body>
+
+	<section id="load_screen">
+		<div class="loader_wrap">
+			<!-- Loader by https://codepen.io/ispal/pen/mVaaJe -->
+			<div class="loader">
+			  <div class="loader__bar"></div>
+			  <div class="loader__bar"></div>
+			  <div class="loader__bar"></div>
+			  <div class="loader__bar"></div>
+			  <div class="loader__bar"></div>
+			  <div class="loader__ball"></div>
+			</div>
+			<!-- Loader end -->
+			<div class="load_bar">
+				<div class="load_fill"></div>
+			</div>
+			<span class="load_status">0%</span>
+		</div>
+	</section>
+
+	<section id="top_control">		
+		<div class="control_container">
+			<div class="clock">
+				<div class="time_block">
+					<div class="date">
+						<span class="month">JAN</span>
+						<span class="day">MON</span>
+					</div>
+					<div class="time">
+						<span class="hours">00</span>
+						<span class="separator">:</span>
+						<span class="minutes">00</span>
+						<!-- <sup>
+							<span class="separator">:</span>
+							<span class="seconds">00</span>
+						</sup> -->
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+	<section id="main">
+
+		<div class="sounds_container">
+
+			<!-- RAIN -->
+			<div class="sound_block">
+				
+				<audio>
+					<source src="sounds/rain.mp3" type="audio/mpeg">
+					<source src="sounds/rain.ogg" type="audio/ogg">
+				</audio>
+				<div class="start_btn"><img src="images/rain.png" alt="Rain Sounds"><a class="play" href="#!"></a></div>
+				<input class="volume_bar" type="range" value="0" max="1" step="0.001">
+			</div>
+
+			<!-- THUNDER -->
+			<div class="sound_block">
+				
+				<audio>
+					<source src="sounds/thunder.mp3" type="audio/mpeg">
+					<source src="sounds/thunder.ogg" type="audio/ogg">
+				</audio>
+				<div class="start_btn"><img src="images/thunder.png" alt="Thunder Sound"><a class="play" href="#!"></a></div>
+				<input class="volume_bar" type="range" value="0" max="1" step="0.001">
+			</div>
+
+			<!-- FOREST -->
+			<div class="sound_block">
+				
+				<audio>
+					<source src="sounds/forest.mp3" type="audio/mpeg">
+					<source src="sounds/forest.ogg" type="audio/ogg">
+				</audio>
+				<div class="start_btn"><img src="images/forest.png" alt="Forest Sounds"><a class="play" href="#!"></a></div>
+				<input class="volume_bar" type="range" value="0" max="1" step="0.001">
+			</div>
+
+			<!-- LEAVES -->
+			<div class="sound_block">
+				
+				<audio>
+					<source src="sounds/leaves.mp3" type="audio/mpeg">
+					<source src="sounds/leaves.ogg" type="audio/ogg">
+				</audio>
+				<div class="start_btn"><img src="images/leaves.png" alt="Leaves in Wind Sound"><a class="play" href="#!"></a></div>
+				<input class="volume_bar" type="range" value="0" max="1" step="0.001">
+			</div>
+
+			<!-- DROPS -->
+			<div class="sound_block">
+				
+				<audio>
+					<source src="sounds/drops.mp3" type="audio/mpeg">
+					<source src="sounds/drops.ogg" type="audio/ogg">
+				</audio>
+				<div class="start_btn"><img src="images/drop.png" alt="Drops Sound"><a class="play" href="#!"></a></div>
+				<input class="volume_bar" type="range" value="0" max="1" step="0.001">
+			</div>
+
+			<!-- FIRE -->
+			<div class="sound_block">
+				
+				<audio>
+					<source src="sounds/fire.mp3" type="audio/mpeg">
+					<source src="sounds/fire.ogg" type="audio/ogg">
+				</audio>
+				<div class="start_btn"><img src="images/fire.png" alt="Fire Sound"><a class="play" href="#!"></a></div>
+				<input class="volume_bar" type="range" value="0" max="1" step="0.001">
+			</div>
+
+			<!-- CAT -->
+			<div class="sound_block">
+				
+				<audio>
+					<source src="sounds/cat_purr.mp3" type="audio/mpeg">
+					<source src="sounds/cat_purr.ogg" type="audio/ogg">
+				</audio>
+				<div class="start_btn"><img src="images/catpurr.png" alt="Cat Purr Sound"><a class="play" href="#!"></a></div>
+				<input class="volume_bar" type="range" value="0" max="1" step="0.001">
+			</div>
+
+			<!-- SHEEP -->
+			<div class="sound_block">
+				
+				<audio>
+					<source src="sounds/sheep.mp3" type="audio/mpeg">
+					<source src="sounds/sheep.ogg" type="audio/ogg">
+				</audio>
+				<div class="start_btn"><img src="images/sheep.png" alt="Sheep Sound"><a class="play" href="#!"></a></div>
+				<input class="volume_bar" type="range" value="0" max="1" step="0.001">
+			</div>
+
+			<!-- BIRDS -->
+			<div class="sound_block">
+				
+				<audio>
+					<source src="sounds/birds.mp3" type="audio/mpeg">
+					<source src="sounds/birds.ogg" type="audio/ogg">
+				</audio>
+				<div class="start_btn"><img src="images/bird.png" alt="Bird Sounds"><a class="play" href="#!"></a></div>
+				<input class="volume_bar" type="range" value="0" max="1" step="0.001">
+			</div>
+
+			<!-- BEACH -->
+			<div class="sound_block">
+				
+				<audio>
+					<source src="sounds/beach.mp3" type="audio/mpeg">
+					<source src="sounds/beach.ogg" type="audio/ogg">
+				</audio>
+				<div class="start_btn"><img src="images/beach.png" alt="Beach Sounds"><a class="play" href="#!"></a></div>
+				<input class="volume_bar" type="range" value="0" max="1" step="0.001">
+			</div>
+
+			<!-- RIVER -->
+			<div class="sound_block">
+				
+				<audio>
+					<source src="sounds/river.mp3" type="audio/mpeg">
+					<source src="sounds/river.ogg" type="audio/ogg">
+				</audio>
+				<div class="start_btn"><img src="images/river.png" alt="River Sounds"><a class="play" href="#!"></a></div>
+				<input class="volume_bar" type="range" value="0" max="1" step="0.001">
+			</div>
+
+			<!-- WINDCHIMES -->
+			<div class="sound_block">
+				
+				<audio>
+					<source src="sounds/windchimes.mp3" type="audio/mpeg">
+					<source src="sounds/windchimes.ogg" type="audio/ogg">
+				</audio>
+				<div class="start_btn"><img src="images/windchimes.png" alt="Windchimes Sound"><a class="play" href="#!"></a></div>
+				<input class="volume_bar" type="range" value="0" max="1" step="0.001">
+			</div>
+
+			<!-- PINK NOISE -->
+			<div class="sound_block">
+				
+				<audio>
+					<source src="sounds/pinknoise.mp3" type="audio/mpeg">
+					<source src="sounds/pinknoise.ogg" type="audio/ogg">
+				</audio>
+				<div class="start_btn"><img src="images/pinknoise.png" alt="Pink Noise Sound"><a class="play" href="#!"></a></div>
+				<input class="volume_bar" type="range" value="0" max="1" step="0.001">
+			</div>
+
+			<!-- BROWN NOISE -->
+			<div class="sound_block">
+				
+				<audio>
+					<source src="sounds/brownnoise.mp3" type="audio/mpeg">
+					<source src="sounds/brownnoise.ogg" type="audio/ogg">
+				</audio>
+				<div class="start_btn"><img src="images/brownnoise.png" alt="Brown Noise Sound"><a class="play" href="#!"></a></div>
+				<input class="volume_bar" type="range" value="0" max="1" step="0.001">
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="mute_btn">
+			<a href="#!">
+				<img src="images/sound.png" class="unmuted">
+				<img src="images/mute.png" class="muted">
+			</a>
+		</div>
+
+		<div class="reset_btn">
+			<a href="#!">
+				<img src="images/reload.png">
+			</a>
+		</div>
+
+		<script src="js/main.min.js"></script>
+	</footer>
+</body>
+</html>

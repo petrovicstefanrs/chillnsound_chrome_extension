@@ -1,0 +1,33 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "My Extension",
+  "version": "0.1.0",
+
+  // Recommended
+  //"default_locale": "en",
+  "description": "Chill n' Sound - Relax with the sounds of Nautre",
+  "icons": { 
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon.png" 
+  },
+
+  // Pick one (or none)
+  "browser_action": {
+    "default_icon": {                    
+      "16": "images/icon16.png",         
+      "24": "images/icon48.png",         
+      "32": "images/icon.png"          
+    },
+    "default_title": "Chill N' Sound",      
+    "default_popup": "index.html"        
+  },
+
+  // Optional
+  "author": "Stefan Petrovic",
+  "background": {
+    "scripts": ["js/main.min.js"],
+    "persistent": false
+  }
+}
